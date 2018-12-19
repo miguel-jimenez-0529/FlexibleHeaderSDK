@@ -1,0 +1,16 @@
+PODS:
+  - FlexibleHeader (0.1.0)
+
+DEPENDENCIES:
+  - FlexibleHeader (from `../`)
+
+EXTERNAL SOURCES:
+  FlexibleHeader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlexibleHeader: ec9c5190da5eacc8565ab660d6fa0087501da2b9
+
+PODFILE CHECKSUM: 5ebe2815c37e188df681fef8bd53d85cd37e0a35
+
+COCOAPODS: 1.5.3

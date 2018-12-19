@@ -1,0 +1,6 @@
+framework module FlexibleHeader {
+  umbrella header "FlexibleHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}
