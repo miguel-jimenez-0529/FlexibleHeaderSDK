@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlexibleHeader_Example' do
+  pod 'FlexibleHeader', :path => '../'
+
+  target 'FlexibleHeader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
