@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexibleHeader'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This helps people to integrate a fast flexible header in their apps'
 
 # This description is used to generate tags and improve search results.

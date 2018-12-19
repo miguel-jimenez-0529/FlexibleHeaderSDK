@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		40E929BD64AD1111A54E66A201BD0096 /* Pods-FlexibleHeader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 505D182A34129127A23DDA0A3A9A98B4 /* Pods-FlexibleHeader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		566C28E805E4C1CE71471C77A7A807D9 /* Pods-FlexibleHeader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCA5A6B0AB149705920A467B708EBBE /* Pods-FlexibleHeader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		604C082721C9F85F004C183A /* FlexibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C082521C9F85E004C183A /* FlexibleHeader.swift */; };
-		604C082821C9F85F004C183A /* TableViewFlexibleHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C082621C9F85E004C183A /* TableViewFlexibleHeaderVC.swift */; };
+		604C082B21CA01B3004C183A /* FlexibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C082921CA01B3004C183A /* FlexibleHeader.swift */; };
+		604C082C21CA01B3004C183A /* TableViewFlexibleHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604C082A21CA01B3004C183A /* TableViewFlexibleHeaderVC.swift */; };
 		91D30ECE418D4909D870F4DF7FA8F7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		974CCAE1B8FE41D6D3A30CD928FF0BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		A8D5F386C9863A22D78BF9A970F2401B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -56,8 +56,8 @@
 		54D6D7860A44439EC68EAC0A5E4ACA3B /* Pods-FlexibleHeader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleHeader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		54FB388574B31C3C13679F1C7EC22FDE /* FlexibleHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleHeader-umbrella.h"; sourceTree = "<group>"; };
 		5DAFCB3F174AD5DA8BC8024F2E4A74FC /* Pods-FlexibleHeader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleHeader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		604C082521C9F85E004C183A /* FlexibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexibleHeader.swift; path = FlexibleHeader/Classes/FlexibleHeader.swift; sourceTree = "<group>"; };
-		604C082621C9F85E004C183A /* TableViewFlexibleHeaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewFlexibleHeaderVC.swift; path = FlexibleHeader/Classes/TableViewFlexibleHeaderVC.swift; sourceTree = "<group>"; };
+		604C082921CA01B3004C183A /* FlexibleHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexibleHeader.swift; path = FlexibleHeader/0.1.0/FlexibleHeader.swift; sourceTree = "<group>"; };
+		604C082A21CA01B3004C183A /* TableViewFlexibleHeaderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewFlexibleHeaderVC.swift; path = FlexibleHeader/0.1.0/TableViewFlexibleHeaderVC.swift; sourceTree = "<group>"; };
 		6AA58DEC6468D7B640F03312C99C5F7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7CE88EF7D050142A00860902036120BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837B1547B5CE7B96AA56AE5AD00549CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		251CE29390621FEC1CAE392275120942 /* FlexibleHeader */ = {
 			isa = PBXGroup;
 			children = (
-				604C082521C9F85E004C183A /* FlexibleHeader.swift */,
-				604C082621C9F85E004C183A /* TableViewFlexibleHeaderVC.swift */,
+				604C082921CA01B3004C183A /* FlexibleHeader.swift */,
+				604C082A21CA01B3004C183A /* TableViewFlexibleHeaderVC.swift */,
 				2C153483D0F317BB385F5FF0BE5C1EB9 /* Pod */,
 				2C59867CAAF2BD5193CDF9B6A75C4D09 /* Support Files */,
 			);
@@ -386,9 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				604C082821C9F85F004C183A /* TableViewFlexibleHeaderVC.swift in Sources */,
+				604C082C21CA01B3004C183A /* TableViewFlexibleHeaderVC.swift in Sources */,
 				B596BF8E1D3BB1B12C23E4B5786CFD8E /* FlexibleHeader-dummy.m in Sources */,
-				604C082721C9F85F004C183A /* FlexibleHeader.swift in Sources */,
+				604C082B21CA01B3004C183A /* FlexibleHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
